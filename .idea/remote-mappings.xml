@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@083c882c-4e4c-49fd-921e-f17bfa04a315" />
+        <remote-mappings server-id="python@sftp://pi@192.168.2.98:22/home/pi/Documents/iot2019/project/venv/bin/python3" />
+      </list>
+    </list>
+  </component>
+</project>
