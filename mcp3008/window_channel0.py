@@ -8,7 +8,7 @@ from threading import Timer
 class MCP3008app:
     def __init__(self,w):
         self.window = w;
-        self.channel0 = MCP3008(0,max_voltage=5.0);     
+        self.channel0 = MCP3008(0);     
         cred = credentials.Certificate('/home/pi/Documents/iotjuliehuang-firebase-adminsdk-ybec6-82ef2edbfa.json')
         firebase_admin.initialize_app( cred, {
     'databaseURL': 'https://iotjuliehuang.firebaseio.com/',
@@ -17,6 +17,10 @@ class MCP3008app:
         self.registerRef = ref = db.reference('raspberrypi/MCP3008/register')
         print(self.registerRef.get())
         self.createGUI();
+        try:
+            self.listener = self.registerRef.listen(self.listenerJob)
+        except FirebaseError as error:
+            pass;
         Timer(1.0,self.checkRegister).start();
         
         
@@ -32,10 +36,13 @@ class MCP3008app:
         mainFrame.pack(padx=30,pady=30);
     
     def checkRegister(self):
-        value = self.channel0.value;
+        value = int(self.channel0.value *100);
         print("now value:{}".format(value));
-        self.registerRef.set(int(value*100))
-        Timer(1.0,self.checkRegister).start();
+        self.registerRef.set(value);        
+        Timer(0.5,self.checkRegister).start();
+        
+    def listenerJob(self, event):
+        self.scaleValue.set(event.data);
         
 
 
