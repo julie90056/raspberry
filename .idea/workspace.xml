@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f891250a-073d-4f77-a9cc-41fa93fb7fdb" name="Default Changelist" comment="" />
+    <list default="true" id="f891250a-073d-4f77-a9cc-41fa93fb7fdb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCD_RFID/LCD/i2c_lib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCD_RFID/LCD/lcd_display.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCD_RFID/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCD_RFID/raspi-gpio/show.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCD_RFID/rfid1/rfid_lcd_buller.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,18 +17,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LCD_RFID/rfid_lcd_buller.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rfid1/LCD/rfid_lcd_buzzer2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="352">
+              <caret line="190" column="16" lean-forward="true" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LCD_RFID/rfid.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mcp3008/window_channel0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -58,6 +75,8 @@
         <option value="&lt;083c882c-4e4c-49fd-921e-f17bfa04a315&gt;/home/pi/Documents/iot2019/project/MFRC522-python/Read.py" />
         <option value="&lt;083c882c-4e4c-49fd-921e-f17bfa04a315&gt;/home/pi/Documents/iot2019/project/LCD_RFID/raspi-gpio/show.py" />
         <option value="$PROJECT_DIR$/LCD_RFID/rfid_lcd_buller.py" />
+        <option value="&lt;083c882c-4e4c-49fd-921e-f17bfa04a315&gt;/home/pi/Documents/iot2019/project/rfid1/rfid_lcd_buzzer.py" />
+        <option value="$PROJECT_DIR$/rfid1/LCD/rfid_lcd_buzzer2.py" />
       </list>
     </option>
   </component>
@@ -71,24 +90,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="raspberry" type="b2602c69:ProjectViewProjectNode" />
               <item name="raspberry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="raspberry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="raspberry" type="462c0819:PsiDirectoryNode" />
-              <item name="LCD_RFID" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="raspberry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="raspberry" type="462c0819:PsiDirectoryNode" />
-              <item name="LCD_RFID" type="462c0819:PsiDirectoryNode" />
-              <item name="raspi-gpio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="raspberry" type="b2602c69:ProjectViewProjectNode" />
@@ -100,10 +107,22 @@
               <item name="raspberry" type="462c0819:PsiDirectoryNode" />
               <item name="mcp3008" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="raspberry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raspberry" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raspberry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raspberry" type="462c0819:PsiDirectoryNode" />
+              <item name="rfid1" type="462c0819:PsiDirectoryNode" />
+              <item name="LCD" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -114,7 +133,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JH_web_0624/web/public" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -278,17 +297,45 @@
       <workItem from="1569303977270" duration="1966000" />
       <workItem from="1569305962184" duration="3500000" />
       <workItem from="1569315121385" duration="139000" />
-      <workItem from="1569379493286" duration="3679000" />
+      <workItem from="1569379493286" duration="5165000" />
+      <workItem from="1569396921291" duration="632000" />
+      <workItem from="1569465588392" duration="7020000" />
+      <workItem from="1569555218250" duration="216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43317000" />
+    <option name="totallyTimeSpent" value="52671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25097024" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122897804" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32871014" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" visible="true" weight="0.31206658" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33564493" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.37774903" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25485122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -311,7 +358,7 @@
       <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.28266495" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="right" id="Database" order="5" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -397,32 +444,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LCD_RFID/raspi-gpio/show.py">
+    <entry file="file://$PROJECT_DIR$/LCD_RFID/raspi-gpio/show.py" />
+    <entry file="file://$PROJECT_DIR$/LCD_RFID/rfid_lcd_buller.py" />
+    <entry file="file://$PROJECT_DIR$/LCD_RFID/rfid.py" />
+    <entry file="file://$PROJECT_DIR$/rfid1/LCD/rfid_lcd_buzzer2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mcp3008/window_channel0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
+        <state relative-caret-position="352">
+          <caret line="190" column="16" lean-forward="true" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LCD_RFID/rfid_lcd_buller.py">
+    <entry file="file://$PROJECT_DIR$/mcp3008/window_channel0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="198">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCD_RFID/rfid.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
